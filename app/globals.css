@@ -16,14 +16,14 @@ html, body {
 a {
   color: #0070f3;
   text-decoration: none;
+  @apply no-underline;
 }
 
 a:hover {
-  text-decoration: underline;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 1em;
 }

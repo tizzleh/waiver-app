@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import StyleGuide from './components/StyleGuide'
 import {
   LoginButton,
   LogoutButton,
@@ -17,6 +18,11 @@ export default async function Home() {
   console.log(session);
 
   return (
+  <div>
+  <div>
+  <Navbar/>
+  <StyleGuide />
+  </div>
     <main
       style={{
         display: "flex",
@@ -35,5 +41,6 @@ export default async function Home() {
         <pre>{JSON.stringify(session)}</pre>
       </div>
     </main>
+    </div>
   );
 }
