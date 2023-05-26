@@ -2,7 +2,7 @@ import React from 'react';
 
 const StyleGuide: React.FC = () => {
   return (
-    <div className="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
+    <div className="antialiased font-sans text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
       <div className="container mx-auto py-8">
         <h1 className="text-4xl text-gray-200 font-bold mb-8">Style Guide</h1>
         <h1 className="text-4xl font-bold mb-8"> 
